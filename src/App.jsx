@@ -90,7 +90,7 @@ function App() {
           <h2>Your Notes</h2>
 
           {notes.length > 0 && (
-            <button type="button" onClick={handleClear}>
+            <button className='clear' type="button" onClick={handleClear}>
               Clear All Notes
             </button>
           )}

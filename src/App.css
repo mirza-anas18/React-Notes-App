@@ -100,3 +100,7 @@ button:hover {
   line-height: 1.6;
   white-space: pre-wrap;
 }
+
+.clear{
+    margin-bottom: 10px;
+}
