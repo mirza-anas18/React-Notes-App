@@ -2,8 +2,8 @@
 function Navbar() {
   return (
     <nav className="navbar">
-      <h2>NotesApp</h2>
-      <p>Your personal space for ideas.</p>
+      <h2>THOUGHT.EXE</h2>
+      <p>An external hard drive for your mind.</p>
     </nav>
   )
 }

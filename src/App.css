@@ -72,3 +72,31 @@ button {
 button:hover {
   background: #374151;
 }
+
+
+.notes-section {
+  margin-top: 35px;
+}
+
+.notes-section h2 {
+  margin-bottom: 18px;
+}
+
+.note-card {
+  background: white;
+  padding: 16px 20px;
+  margin-bottom: 14px;
+  border: 1px solid #e1e5eb;
+  border-radius: 10px;
+}
+
+.note-card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.note-card p {
+  margin-bottom: 0;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
