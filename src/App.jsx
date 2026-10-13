@@ -38,6 +38,13 @@ function App() {
     setContent('')
   }
 
+  // Clear all notes after confirmation
+  function handleClear() {
+    if (window.confirm('Are you sure you want to clear all notes?')) {
+      setNotes([])
+    }
+  }
+
   return (
     <>
       <Navbar />
@@ -81,6 +88,12 @@ function App() {
 
         <section className="notes-section">
           <h2>Your Notes</h2>
+
+          {notes.length > 0 && (
+            <button type="button" onClick={handleClear}>
+              Clear All Notes
+            </button>
+          )}
 
           {notes.map((note, index) => (
             <article className="note-card" key={note.id}>
